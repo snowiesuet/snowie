@@ -15,6 +15,7 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 50px;
 }
 
 header .subtitle {
@@ -25,10 +26,50 @@ header .title {
   font-size: 5em;
 }
 
-section {
-  
+section.skills span {
+    padding: 5px 10px;
+    background-color: #D1C0DF;
+    border-radius: 5px;
+    line-height: 45px;
 }
 
-section.work .thumbnails img {
-  width: 30%;
+section.work .thumbnails {
+   margin-right: 50px;
+   display: inline-block;
+   width: 300px;
+   height: 200px;
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   background-position: center center;
+   transition: all .5s ease;
+   position: relative;
+}
+
+.pbistro {
+  background-image: url(img/pbistro.png);
+}
+
+.threeDjoe {
+  background-image: url(img/3djoe.png);
+}
+
+section.work .thumbnails:hover {
+    cursor: pointer;
+    background-size: 200% 200%;
+}
+
+section.work .thumbnails:hover .hover {
+    display: block;
+}
+
+.hover {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  color: white;
+  padding-top: 25%;
+  display: none;
+  opacity: 0.8;
+  display: none;
+  position: absolute;
 }
