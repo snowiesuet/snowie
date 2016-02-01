@@ -16,6 +16,10 @@ header {
   margin-bottom: 50px;
 }
 
+header img {
+  width: auto;
+}
+
 h1 {
   font-family: 'Lobster', cursive;
   color: #D1C0DF;
