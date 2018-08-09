@@ -1,121 +1,182 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
    "http://www.w3.org/TR/html4/strict.dtd">
 <HTML>
-   <HEAD>
-      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-      <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous">
-      <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
-      <link href='https://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
-      <link href="style.css" rel="stylesheet">
-      <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
-      <TITLE>snowie's</TITLE>
-   </HEAD>
-   <BODY>
-     <header>
-       <img src="img/snowie.jpg"/>
-       <p class="subtitle">web developer</p>
-     </header>
-     <div class="container-fluid">
-       <div class="row">
-         <div class="col-xs-12">
-           <section class="about">
-               Hello! My name is <b>Snowie</b>, I'm a front-end developer currently based in Singapore.
-               I enjoy developing webapps that are pleasant to the eyes of the beholders. There is so much to express
-               in the world of technology, I believe technology makes the world a better place and I would like to be a part of it!
-           </section>
 
-           <section class="work">
-               <h1>Recent Work</h1>
-               <a href="http://p-bistro.com/"><div class="thumbnails pbistro"><div class="hover">P-bistro<br> Wordpress development</div></div></a>
-               <a href="http://3djoeandmax.com/"><div class="thumbnails threeDjoe"><div class="hover">3d Joe & Max <br> Wordpress development </div></div></a>
-           </section>
-           <section class="skills">
-             <h1>Skills</h1>
-             <span>HTML5</span>
-             <span>CSS3</span>
-             <span>JavaScript</span>
-             <span>ES6</span>
-             <span>JQuery</span>
-             <span>Wordpress</span>
+<HEAD>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+  <link href="style.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <TITLE>snowie's</TITLE>
+</HEAD>
 
-             <span>Bootstrap</span>
-             <span>Foundation</span>
+<BODY>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#about">about</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#work">work</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#exp">experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <header>
+    <img src="img/snowie.jpg" />
+    <p class="subtitle">web developer</p>
+  </header>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12">
+        <section id="about" class="about">
+          Hello! My name is <b>Snowie</b>, I'm a front-end developer currently based in Toronto. I enjoy developing webapps that are pleasant to the eyes of the beholders. There is so much to express in the world of technology, I believe technology makes
+          the world a better place and I would like to be a part of it!
+        </section>
 
-             <span>Git</span>
-             <span>SVN</span>
+        <section id="work" class="work">
+          <h1>Past Work</h1>
+          <a href="http://p-bistro.com/">
+            <div class="thumbnails pbistro">
+              <div class="hover">P-bistro<br> Wordpress development</div>
+            </div>
+          </a>
+          <a href="http://3djoeandmax.com/">
+            <div class="thumbnails threeDjoe">
+              <div class="hover">3d Joe & Max <br> Wordpress development </div>
+            </div>
+          </a>
+        </section>
+        <section id="skills" class="skills">
+          <h1>Skills</h1>
+          <span>HTML5</span>
+          <span>CSS3</span>
+          <span>JavaScript</span>
+          <span>ES6</span>
+          <span>JQuery</span>
+          <span>Wordpress</span>
 
-             <span>jQuery</span>
-             <span>Gulp</span>
-             <span>Grunt</span>
-             <span>Npm</span>
-             <span>Bower</span>
-             <span>lodash</span>
+          <span>Bootstrap</span>
+          <span>Foundation</span>
 
-             <span>HandleBarJS</span>
-             <span>BackboneJS</span>
-             <span>ReactJS</span>
+          <span>Git</span>
+          <span>SVN</span>
 
-             <span>MySQL</span>
-           </section>
-           <section class="experience">
-             <h1>Work & Education</h1>
-             <ul class="timeline">
-               <li>
-             		<div class="direction-l">
-             			<div class="flag-wrapper">
-             				<span class="flag">Freelancer</span>
-             				<span class="time-wrapper"><span class="time">2016 - present</span></span>
-             			</div>
-             			<div class="desc">Connect with me to work together on some really awesome projects!</div>
-             		</div>
-             	</li>
-            	<!-- Item 1 -->
-            	<li>
-            		<div class="direction-r">
-            			<div class="flag-wrapper">
-            				<span class="flag">Tremor Video</span>
-            				<span class="time-wrapper"><span class="time">2014 -2015</span></span>
-            			</div>
-            			<div class="desc">Implemented complex web user interface for 2 main products; Trafficking, Analytics platform. </div>
-            		</div>
-            	</li>
+          <span>jQuery</span>
+          <span>Gulp</span>
+          <span>Grunt</span>
+          <span>Npm</span>
+          <span>Bower</span>
+          <span>lodash</span>
 
-            	<!-- Item 2 -->
-            	<li>
-            		<div class="direction-l">
-            			<div class="flag-wrapper">
-            				<span class="flag">Favorite Medium</span>
-            				<span class="time-wrapper"><span class="time">2013 - 2014</span></span>
-            			</div>
-            			<div class="desc">Front-end development (web, mobile) converts PSD layouts to a pixel perfect HTML and
-                    CSS following today best practices and web standards including cross browser compliance.</div>
-            		</div>
-            	</li>
+          <span>HandleBarJS</span>
+          <span>BackboneJS</span>
+          <span>ReactJS</span>
 
-            	<!-- Item 3 -->
-            	<li>
-            		<div class="direction-r">
-            			<div class="flag-wrapper">
-            				<span class="flag">Temasek Polytechnic</span>
-            				<span class="time-wrapper"><span class="time">2009 - 2012</span></span>
-            			</div>
-            			<div class="desc">Diploma in Info-Communication<br>The Diploma in Infocomm & Network Engineering (Formly known as Diploma in Infocommunication) is an inter-disciplinary programme that combines the study of engineering fundamentals, networking and information technologies.
-                  </div>
-            		</div>
-            	</li>
+          <span>MySQL</span>
+        </section>
+        <section id="exp" class="experience">
+          <h1>Work & Education</h1>
+          <ul class="timeline">
+            <li>
+              <div class="direction-r">
+                <div class="flag-wrapper">
+                  <span class="flag">Freelancer</span>
+                  <span class="time-wrapper"><span class="time">present</span></span>
+                </div>
+                <div class="desc">Connect with me to work together on some really awesome projects!</div>
+              </div>
+            </li>
+            <li>
+              <div class="direction-l">
+                <div class="flag-wrapper">
+                  <span class="flag">FITCH</span>
+                  <span class="time-wrapper"><span class="time"> 2017 - 2018</span></span>
+                </div>
+                <div class="desc">Responsible for developing front-end layers applications for various projects.</div>
+              </div>
+            </li>
+            <li>
+              <div class="direction-r">
+                <div class="flag-wrapper">
+                  <span class="flag">Oddup</span>
+                  <span class="time-wrapper"><span class="time">2017 - 2018</span></span>
+                </div>
+                <div class="desc">Developed quality & responsive web interfaces rapidly, in a fast growing startup environment. </div>
+              </div>
+            </li>
+            <li>
+              <div class="direction-l">
+                <div class="flag-wrapper">
+                  <span class="flag">Citi</span>
+                  <span class="time-wrapper"><span class="time">2015 - 2016</span></span>
+                </div>
+                <div class="desc">Establish end-to-end user flows & user interface specifications based on different scenarios, customer types, demographics and business requirements. </div>
+              </div>
+            </li>
+            <!-- Item 1 -->
+            <li>
+              <div class="direction-r">
+                <div class="flag-wrapper">
+                  <span class="flag">Tremor Video</span>
+                  <span class="time-wrapper"><span class="time">2014 - 2015</span></span>
+                </div>
+                <div class="desc">Implemented complex web user interface for 2 main products; Trafficking, Analytics platform. </div>
+              </div>
+            </li>
 
-            </ul>
-            Please contact me for a detailed CV!
-           </section>
-           <section class="contact">
-             <h1>let's connect</h1>
-             <a href="mailto:snowiesuet@gmail.com">@email</a><br>
-             <a href="https://sg.linkedin.com/in/snowieleung">linkedin</a><br>
-             <a href="https://github.com/snowiesuet">github</a>
-           </section>
-          </div>
-        </div>
+            <!-- Item 2 -->
+            <li>
+              <div class="direction-l">
+                <div class="flag-wrapper">
+                  <span class="flag">Favorite Medium</span>
+                  <span class="time-wrapper"><span class="time">2013 - 2014</span></span>
+                </div>
+                <div class="desc">Front-end development (web, mobile) converts PSD layouts to a pixel perfect HTML and CSS following today best practices and web standards including cross browser compliance.</div>
+              </div>
+            </li>
+
+            <!-- Item 3 -->
+            <li>
+              <div class="direction-r">
+                <div class="flag-wrapper">
+                  <span class="flag">Temasek Poly</span>
+                  <span class="time-wrapper"><span class="time">2009 - 2012</span></span>
+                </div>
+                <div class="desc">Diploma in Info-Communication<br>The Diploma in Infocomm & Network Engineering (Formly known as Diploma in Infocommunication) is an inter-disciplinary programme that combines the study of engineering fundamentals, networking and information
+                  technologies.
+                </div>
+              </div>
+            </li>
+
+          </ul>
+          Please contact me for a detailed CV!
+        </section>
+        <section id="contact" class="contact">
+          <h1>let's connect</h1>
+          <a href="mailto:snowiesuet@gmail.com">@email</a><br>
+          <a href="https://sg.linkedin.com/in/snowieleung">linkedin</a><br>
+          <a href="https://github.com/snowiesuet">github</a>
+        </section>
       </div>
-   </BODY>
+    </div>
+  </div>
+</BODY>
+
 </HTML>
